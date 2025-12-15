@@ -1,0 +1,75 @@
+# Data Cleaning – Chicago Food Inspections
+
+## Project Overview
+This notebook focuses on **data cleaning and data quality analysis** using the Chicago Food Inspections dataset.  
+The objective is to identify common real-world data issues and apply systematic cleaning and validation techniques before performing any deeper analysis.
+
+This project is part of a **7 Days – 7 Datasets** personal learning challenge using Python.
+
+---
+
+## Dataset Information
+- **Dataset:** Chicago Food Inspections  
+- **Source:** Public government data (via Kaggle)  
+- **Domain:** Public Health / Compliance  
+
+The dataset contains inspection records for food establishments across Chicago and includes missing values, inconsistent text fields, and date formatting issues.
+
+---
+
+## Objectives
+The key goals of this notebook are to:
+- Understand the structure and quality of the raw data
+- Identify missing and inconsistent values
+- Clean and standardize categorical columns
+- Convert and validate date fields
+- Prepare the dataset for reliable analysis
+
+---
+
+## Key Steps Performed
+- Loaded and inspected the raw dataset
+- Analyzed missing values across all columns
+- Removed duplicate records
+- Standardized categorical text fields such as inspection results and facility types
+- Parsed inspection dates and extracted year information
+- Performed validation checks after cleaning
+- Used visualizations to confirm data consistency
+
+---
+
+## Visualizations Included
+- Missing values percentage by column  
+- Distribution of inspection results after cleaning  
+- Annual number of food inspections  
+
+These plots help validate the effectiveness of the data cleaning process and ensure readiness for further analysis.
+
+---
+
+## Tools & Libraries Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+
+---
+
+## Key Learnings
+- Real-world datasets are often messy and require significant preprocessing
+- Data cleaning is a critical step that directly impacts analysis quality
+- Visual checks are useful for validating cleaning decisions
+- Proper handling of dates and categorical data improves analytical reliability
+
+---
+
+## Next Steps
+- Perform exploratory data analysis on inspection outcomes
+- Analyze common violations and failure patterns
+- Use the cleaned dataset for business or policy-related insights
+
+---
+
+**Note:**  
+This project uses publicly available data and is created for learning and portfolio purposes only.
